@@ -18,8 +18,8 @@ There is no source code here.
 
 | file | what it is |
 |---|---|
-| `Type Nothing_<version>_x64-setup.exe` | the installer |
-| `*.nsis.zip` + `*.nsis.zip.sig` | what the app downloads when it updates itself, and its signature |
+| `Type Nothing_<version>_x64-setup.exe` | the installer, and also what the app downloads when it updates itself |
+| `Type Nothing_<version>_x64-setup.exe.sig` | its signature, which the app checks before installing an update |
 | `latest.json` | the manifest the stable channel reads |
 | `alpha.json` | the manifest the alpha channel reads |
 
